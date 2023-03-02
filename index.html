@@ -7,10 +7,12 @@
 
 
 <style>
+    html        {   height: 100%;       width: 100%;}
     h1          {   font-family: arial;         text-align: center; }
     p           {   font-family: arial;         text-align: center; }
-    body        {   background-color: white;    color: black;   background-image: linear-gradient(white, grey); padding: 25px;   font-size: 25px;    }
-    .dark-mode  {   background-color: black;    color: white;   background-image: linear-gradient(black, grey);}
+    body        {   background-color: white;  color: black;   background-image: linear-gradient(white, lightgrey); 
+                    font-size: 25px;            height: 100%;     min-height: 100%;}
+    .dark-mode  {   background-color: black;  color: white;   background-image: linear-gradient(black, darkgrey);}
 </style>
     
 <head>
@@ -18,7 +20,6 @@
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title>Page Title</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
     <script src='main.js'></script>
 </head>
 
@@ -27,6 +28,7 @@
     <h1>Heading 1</h1>
     <p>Paragraph</p>
 </body>
+
     
 <script>
     function darkModeFunction() {
